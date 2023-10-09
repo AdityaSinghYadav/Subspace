@@ -46,13 +46,13 @@ class _HomePageState extends State<HomePage> {
             elevation: 5,
             leading: Image.asset(
               'Images/blog.png',
-              height: 20,
-              width: 20,
+              height: 10,
+              width: 10,
             ),
             actions: [Icon(Icons.search)],
             title: Center(
               child: Text(
-                'Flutter Blog Explorer',
+                'Blog Explorer',
                 style: TextStyle(
                     fontSize: 20,
                     fontWeight: FontWeight.bold,
